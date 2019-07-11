@@ -23,19 +23,19 @@ public class AntiBan extends Task{
             switch(combat.style()){
                 case ACCURATE:
                     widgets.component(320,1).hover();
-                    Condition.sleep(Random.nextInt(1254,1982));
+                    Condition.sleep(Random.nextInt(2103,3608));
                     break;
                 case AGGRESSIVE:
                     widgets.component(320,2).hover();
-                    Condition.sleep(Random.nextInt(1254,1982));
+                    Condition.sleep(Random.nextInt(2103,3608));
                     break;
                 case DEFENSIVE:
                     widgets.component(320,3).hover();
-                    Condition.sleep(Random.nextInt(1254,1982));
+                    Condition.sleep(Random.nextInt(2103,3608));
                     break;
                 default:
                     widgets.component(320,9).hover();
-                    Condition.sleep(Random.nextInt(1254,1982));
+                    Condition.sleep(Random.nextInt(2103,3608));
                     break;
             }
         }
